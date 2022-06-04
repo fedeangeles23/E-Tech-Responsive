@@ -17,8 +17,9 @@
 /* Header logo settings start */
 
 .header .logo img{  /* Configuración del icono */
-    height: 4rem;   /* Altura del icono */
+    height: 4.5rem;   /* Altura del icono */
     border-radius: 50%; /* Borde de tipo radio del icono */
+    margin-left: 3rem;  /* Dispoción del logo con respecto al márgen */
 }
 
 /* Header logo settings ends */
@@ -74,14 +75,14 @@
 
 /* Header icons settings start */
 
-.header .icons div{
+.header .icons div{ /* Configuración de los iconos */
     color:#fff; /* Color de los iconos */
     cursor: pointer;    /* Cambio de cursor al pasar el puntero */
     font-size: 2rem;  /* Tamaño de los iconos */
     margin-left: 2rem;  /* Posición con respecto al márgen izquierdo */
 }
 
-.header .icons div:hover{
+.header .icons div:hover{   /* Configuración de los efectos de los iconos */
     color:var(--main-color);    /* Color del icono al pasar el cursor */
 }
 
