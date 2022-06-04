@@ -49,6 +49,7 @@
     height: 3.5rem;   /* Altura del contenedor */
     display: flex;  /* Disposición de la vista - Flexible */
     align-items: center;    /* Alinear elementos en el centro */
+    border-radius: 25px 25px; /* Borde del input derecho */
 }
 
 .header .search-form input{ /* Contenido del buscador */
@@ -58,11 +59,12 @@
     color:var(--black); /* Color del contenedor */
     padding:1rem;   /* Relleno del contenedor */
     text-transform: none;
+    border-radius: 25px 25px; /* Borde del input izquierdo */
 }
 
 .header .search-form label{ /* Lupa */
     cursor: pointer;    /* Cambio de puntero */
-    font-size: 1.5rem;  /* Tamaño de la lupa */
+    font-size: 1.6rem;  /* Tamaño de la lupa */
     margin-right: 1rem; /* Posición con respesto al margen derecho */
     color:var(--black); /* Color de la lupa */
 }
