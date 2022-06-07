@@ -60,7 +60,7 @@
 }
 
 .simple-cards .box-simple-cards .simple-card h3{
-    color: #fff;
+    color: var(--main-color2);
     font-size: 2rem;
     padding:1rem 0;
 }

@@ -15,6 +15,9 @@
 
 /* generals settings ends */
 
+body{
+    background: #FAFAFA;
+}
 
 /* HTML - webkit settings start */
 
@@ -52,7 +55,7 @@ section{
 
 .heading{
     text-align: center;
-    color: black;
+    color: var(--bg);
     text-transform: uppercase;
     padding-bottom: 1rem;
     font-size: 2rem;
