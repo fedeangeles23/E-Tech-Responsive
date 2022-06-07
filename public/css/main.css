@@ -70,7 +70,7 @@
 }
 
 .simple-cards .box-simple-cards .simple-card:hover > *{
-    color:var(--black);
+    color:var(--bg);
 }
 
 /* Main Home - Our menu settings ends */
