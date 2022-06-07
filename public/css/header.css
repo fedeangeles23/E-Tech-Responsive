@@ -17,9 +17,8 @@
 /* Header logo settings start */
 
 .header .logo img{  /* Configuración del icono */
-    height: 4.5rem;   /* Altura del icono */
+    height: 4.9rem;   /* Altura del icono */
     border-radius: 50%; /* Borde de tipo radio del icono */
-    margin-left: 3rem;  /* Dispoción del logo con respecto al márgen */
 }
 
 /* Header logo settings ends */
@@ -51,7 +50,7 @@
     display: flex;  /* Disposición de la vista - Flexible */
     align-items: center;    /* Alinear elementos en el centro */
     border-radius: 25px 25px 25px 25px; /* Borde del input derecho */
-    margin-right: 60px;
+    margin-right: 35px; /* Disposición del search con respecto a los elementos laterales */
 }
 
 .header .search-form input{ /* Contenido del buscador */
