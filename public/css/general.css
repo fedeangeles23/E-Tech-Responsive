@@ -48,28 +48,19 @@ section{
 
 /* Section settings ends */
 
-
 /* Heading settings start */
 
 .heading{
     text-align: center;
-    color:#fff;
+    color: black;
     text-transform: uppercase;
     padding-bottom: 1rem;
     font-size: 2rem;
 }
 
 .heading span{
-    color:var(--main-color);
+    color:var(--main-color2);
     text-transform: uppercase;
 }
 
 /* Heading settings ends */
-
-/* Body settings start */
-
-body{
-    background: var(--bg);
-}
-
-/* Body settings ends */

@@ -26,14 +26,14 @@
 
 /* Header logo-icon settings start */
 
-.header-nav .header .logo-icon {    /* Configuración del contenedor logo e icono */
+.header-nav .header .icons {    /* Configuración del contenedor logo e icono */
     display: flex;  /* Disposición de la vista de los elementos - flexible */
     align-items: center;    /* Alinear elementos al centro */
     justify-content: space-between; /* Espacio entre los elementos del contenedor */
     margin-left: -5rem; /* Disposición de los elementos con respecto al márgen */
 }
 
-.header-nav .header .logo-icon div{ /* Configuración de los elementos del contenedor */
+.header-nav .header .icons div{ /* Configuración de los elementos del contenedor */
     cursor: pointer;    /* Cambio de cursor al pasar el puntero */
     margin-left: 3rem;  /* Disposición de los elementos con respecto al márgen */
 }
@@ -93,9 +93,9 @@
 
 /* hiding the menu button in the version desktop */
 
-#menu-btn{
+/* #menu-btn{
     display: none;
-}
+} */
 
 /* Header navbar settings */
 
@@ -105,6 +105,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav .icons div{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.nav .icons div:hover{
+    color:var(--main-color);
 }
 
 .nav .navbar a{

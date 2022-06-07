@@ -3,10 +3,9 @@
     justify-content: center;    /* Alinear al centro sobre el eje X */
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
-    /* background:url(../img/home-img.jpeg) no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
+    background:url(../img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home .slider{
@@ -21,7 +20,7 @@
     display: flex;
     height: 50px;
     margin-top: 5px;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main-color2);
     background: var(--bg-gray);
 }
 
@@ -53,7 +52,7 @@
     padding:2rem;
     text-align: center;
     background-color: var(--bg-gray);
-    border:var(--main-color);    
+    border: 2px solid var(--main-color2);   
 }
 
 .simple-cards .box-simple-cards .simple-card img{
