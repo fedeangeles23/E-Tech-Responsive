@@ -1,14 +1,14 @@
 /* Header settings start */
 
-.header{
+.header-nav .header{
     background: var(--bg);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 5%;
+    padding:1rem 5%;
     border-bottom: var(--border);
-    position: fixed;
-    top:0; left: 0; right: 0;
+    /* position: fixed;
+    top:0; left: 0; right: 0; */
     z-index: 1000;
 }
 
@@ -16,7 +16,7 @@
 
 /* Header logo settings start */
 
-.header .logo img{  /* Configuración del icono */
+.header-nav .header .logo img{  /* Configuración del icono */
     height: 4.5rem;   /* Altura del icono */
     border-radius: 50%; /* Borde de tipo radio del icono */
     margin-left: 3rem;  /* Dispoción del logo con respecto al márgen */
@@ -26,14 +26,14 @@
 
 /* Header logo-icon settings start */
 
-.header .logo-icon {    /* Configuración del contenedor logo e icono */
+.header-nav .header .logo-icon {    /* Configuración del contenedor logo e icono */
     display: flex;  /* Disposición de la vista de los elementos - flexible */
     align-items: center;    /* Alinear elementos al centro */
     justify-content: space-between; /* Espacio entre los elementos del contenedor */
     margin-left: -5rem; /* Disposición de los elementos con respecto al márgen */
 }
 
-.header .logo-icon div{ /* Configuración de los elementos del contenedor */
+.header-nav .header .logo-icon div{ /* Configuración de los elementos del contenedor */
     cursor: pointer;    /* Cambio de cursor al pasar el puntero */
     margin-left: 3rem;  /* Disposición de los elementos con respecto al márgen */
 }
@@ -42,7 +42,7 @@
 
 /* Header search settings start */
 
-.header .search-form{   /* Configuración del contenedor del buscador */
+.header-nav .header .search-form{   /* Configuración del contenedor del buscador */
     top:25; right: 35%; /* Posición del contenedor del buscador */
     background: #fff;   /* Color del fondo del contenedor */
     width: 50rem;   /* Ancho del contenedor */
@@ -52,7 +52,7 @@
     border-radius: 25px 25px; /* Borde del input derecho */
 }
 
-.header .search-form input{ /* Contenido del buscador */
+.header-nav .header .search-form input{ /* Contenido del buscador */
     height: 100%;   /* Ocupar el 100% de su contenido */
     width: 100%;  /* Ocupar el 100% de su contendio */
     font-size: 1.5rem;  /* Tamaño de la fuente */
@@ -62,14 +62,14 @@
     border-radius: 25px 25px; /* Borde del input izquierdo */
 }
 
-.header .search-form label{ /* Lupa */
+.header-nav .header .search-form label{ /* Lupa */
     cursor: pointer;    /* Cambio de puntero */
     font-size: 1.6rem;  /* Tamaño de la lupa */
     margin-right: 1rem; /* Posición con respesto al margen derecho */
     color:var(--black); /* Color de la lupa */
 }
 
-.header .search-form label:hover{   /* Lupa colour */
+.header-nav .header .search-form label:hover{   /* Lupa colour */
     color:var(--main-color);    /* Color de la lupa al pasar el puntero */
 }
 
@@ -77,14 +77,14 @@
 
 /* Header icons settings start */
 
-.header .icons div{ /* Configuración de los iconos */
+.header-nav .header .icons div{ /* Configuración de los iconos */
     color:#fff; /* Color de los iconos */
     cursor: pointer;    /* Cambio de cursor al pasar el puntero */
     font-size: 2rem;  /* Tamaño de los iconos */
     margin-left: 2rem;  /* Posición con respecto al márgen izquierdo */
 }
 
-.header .icons div:hover{   /* Configuración de los efectos de los iconos */
+.header-nav .header .icons div:hover{   /* Configuración de los efectos de los iconos */
     color:var(--main-color);    /* Color del icono al pasar el cursor */
 }
 
@@ -93,12 +93,33 @@
 
 /* hiding the menu button in the version desktop */
 
-/* #menu-btn{
+#menu-btn{
     display: none;
-} */
+}
 
+/* Header navbar settings */
 
+.nav{
+    background: red;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.nav .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:#fff;
+}
+
+.nav .navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+/* Header navbar settings ends */
 
 
 

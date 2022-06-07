@@ -1,5 +1,77 @@
-.hola{
-    width: 500px;
-    height: 2000px;
-    background: blue;
+.home{
+    display: flex;
+    justify-content: center;    /* Alinear al centro sobre el eje X */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    /* background:url(../img/home-img.jpeg) no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
 }
+
+.home .slider{
+    width: 1100px;
+    height: 240px;
+    border: 2px solid var(--main-color);
+    background: var(--bg-gray);
+}
+
+.home .pay-system{
+    width: 1100px;
+    display: flex;
+    height: 50px;
+    margin-top: 5px;
+    border: 1px solid var(--main-color);
+    background: var(--bg-gray);
+}
+
+/* .home .pay-system .cards-pays{
+
+} */
+
+/* .home .pay-system .secure-purchase{
+  
+} */
+
+/* .home .pay-system .branch-offices{
+
+} */
+
+/* .home .pay-system .free-shipping{
+
+} */
+
+/* Main Home - Our menu settings start */
+
+.simple-cards .box-simple-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap:1rem;
+}
+
+.simple-cards .box-simple-cards .simple-card{
+    padding:2rem;
+    text-align: center;
+    background-color: var(--bg-gray);
+    border:var(--main-color);    
+}
+
+.simple-cards .box-simple-cards .simple-card img{
+    height: 1rem;
+}
+
+.simple-cards .box-simple-cards .simple-card h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.simple-cards .box-simple-cards .simple-card:hover{
+    background:#fff;
+}
+
+.simple-cards .box-simple-cards .simple-card:hover > *{
+    color:var(--black);
+}
+
+/* Main Home - Our menu settings ends */

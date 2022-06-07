@@ -39,3 +39,37 @@ html::-webkit-scrollbar-thumb{  /* Es el deslizador. La pieza o carro que se des
 }
 
 /* HTML - webkit settings ends */
+
+/* Section settings start */
+
+section{
+    padding:2rem 9.6%;
+}
+
+/* Section settings ends */
+
+
+/* Heading settings start */
+
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+/* Heading settings ends */
+
+/* Body settings start */
+
+body{
+    background: var(--bg);
+}
+
+/* Body settings ends */
